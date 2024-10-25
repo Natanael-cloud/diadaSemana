@@ -1,0 +1,53 @@
+/* Fundo com gradiente e estilo futurista */
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Roboto', sans-serif;
+  color: #00e0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container com borda neon e sombra */
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #00e0ff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00e0ff, 0 0 10px #00e0ff;
+  width: 300px;
+}
+
+/* Título com efeito neon */
+h1 {
+  font-size: 1.8em;
+  color: #00e0ff;
+  margin-bottom: 20px;
+}
+
+/* Botão com estilo futurista */
+button {
+  background: #00e0ff;
+  color: #0f2027;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00e0ff;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  box-shadow: 0 0 20px #00e0ff, 0 0 10px #00e0ff;
+  transform: scale(1.1);
+}
+
+/* Resultado com estilo neon */
+#resultado {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #00e0ff;
+}
